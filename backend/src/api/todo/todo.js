@@ -17,4 +17,4 @@ const todoSchema = new mongoose.Schema({
 	}
 })
 
-module.exports = restul.model('Todo', todoSchema)
+module.exports = restful.model('Todo', todoSchema)
